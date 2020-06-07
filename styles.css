@@ -1,0 +1,95 @@
+:root {
+  font-size: 16px;
+}
+
+body {
+  background-color: hsl(0, 100%, 74%);
+  background-image: url("images/bg-intro-desktop.png");
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.div1 {
+  width: 30vw;
+  height: 48vh;
+  background-color: white;
+  border-radius: 10px;
+  padding: 4%;
+}
+
+.div2 {
+  position: relative;
+  top: 20vh;
+  padding: 0;
+  right: 4vw;
+}
+
+.div3 {
+  position: relative;
+  top: 36vh;
+  left: 15vw;
+}
+
+.div1 .formlabelmargins {
+  margin: 0 0 5%;
+}
+
+.btn-1 {
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  FONT-WEIGHT: 600;
+  FONT-SIZE: 1REM;
+}
+
+.agreement {
+  font-size: 0.7rem;
+  padding: 3% 0 5%;
+  font-weight: 700;
+  color: hsl(246, 25%, 77%)
+}
+
+.terms {
+  color: hsl(0, 100%, 74%);
+  font-size: 0.7rem;
+  padding: 3% 0 5%;
+  font-weight: 700;
+}
+
+.btn-2 {
+  width: 30vw;
+  color: white;
+  font-weight: 700;
+  font-size: 0.9rem;
+  background-color: hsl(248, 32%, 49%);
+  margin: 0 0 3%;
+  height: 7vh;
+  border-radius: 10px;
+}
+
+.btn-3 {
+  color: hsl(246, 25%, 77%);
+}
+
+.line1 {
+  color: white;
+  font-size: 2.9rem;
+  font-weight: 700;
+  width: 71%;
+  line-height: 1.1;
+  text-align: left;
+  margin: 0 0 3%;
+}
+
+.line2 {
+  color: white;
+  font-size: 1rem;
+  width: 75%;
+  text-align: left;
+  font-weight: 500;
+}
+
+@media(max-width:500px) {
+.line1{
+  
+}
+}
