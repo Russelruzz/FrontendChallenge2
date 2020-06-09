@@ -88,8 +88,28 @@ body {
   font-weight: 500;
 }
 
-@media(max-width:500px) {
-.line1{
-  
-}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .btn-2 {
+    font-size: 0.8rem;
+  }
+
+  .line1{
+    font-size: 2.5rem;
+  }
+  .line2{
+    font-size: 0.9rem;
+  }
+  .btn-1{
+    font-size: 0.8rem;
+
+  }
+  .agreement{
+    font-size: 0.49rem;
+  }
+  .terms{
+    font-size: 0.49rem;
+  }
+  .div1{
+    height: 40vh;
+  }
 }
